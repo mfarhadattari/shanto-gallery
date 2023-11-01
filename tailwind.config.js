@@ -6,9 +6,11 @@ export default {
     "node_modules/preline/dist/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "playpen-sans": ["Playpen Sans", "cursive"],
+      },
+    },
   },
-  plugins: [
-    require('preline/plugin'),
-  ],
+  plugins: [require("preline/plugin")],
 };
